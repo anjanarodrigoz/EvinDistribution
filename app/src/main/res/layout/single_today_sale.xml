@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp">
+
+
+    <TableRow
+
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ITEM ID"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="ITEM NAME               "
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="QTY"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="ITEM PRICE"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="COST"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="SELL PRICE"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:layout_marginEnd="10dp"
+            android:text="PROFIT"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="5dp"
+        android:background="@color/white"
+        >
+
+        <TextView
+            android:id="@+id/iItemID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAlignment="textStart"
+            android:textColor="@color/tableText"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/iQty"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iItemPrice"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/iCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iSellPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/iProfit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:layout_marginEnd="10dp"
+            android:textColor="@color/tableText"
+            android:textStyle="bold" />
+
+
+
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441186765468",
+    "project_id": "evin-distribution",
+    "storage_bucket": "evin-distribution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441186765468:android:a3235b250accc68a717b59",
+        "android_client_info": {
+          "package_name": "com.example.evindistribution"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441186765468-csk91upe34jicfkcmcnlf4mbqj674iqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT0s91k1x8zZJb-x6KPFSSAYM2iaQZitw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441186765468-csk91upe34jicfkcmcnlf4mbqj674iqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+# EvinDistribution
+ Sales calculating App
